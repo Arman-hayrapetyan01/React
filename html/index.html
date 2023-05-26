@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Game</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container" id="contain">
+        <div class="game_container" id="game_container">
+            <div id="draw_box">
+                <h1>Draw!!</h1>
+            </div>
+            <div class="menu">
+                <div class="menu_box">
+                    <input type="text" name="" id="player1_name" placeholder="Player X">
+                </div>
+                <div class="menu_box">
+                    <input type="text" name="" id="player2_name" placeholder="Player O">
+                </div>
+                <div class="menu_box">
+                    <input type="number" name="" id="game_score" placeholder="Score">
+                </div>
+                <div class="menu_box">
+                    <input type="button" value="Start Game" id="start_game_btn">
+                </div>
+            </div>
+            <div id="winner_div">
+                <h1 id="winner_name"></h1>
+                <button id="win_btn">Play Again</button>
+            </div>
+            <div id="foother">
+                <div class="box_count">
+                    <h1 id="player1_score"></h1>
+                </div>
+                <div class="box_count box_count2">
+                    <h1 id="player2_score"></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>
